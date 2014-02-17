@@ -1,0 +1,114 @@
+h1, li {
+  font-family: painted;
+  color: #BC7642;
+}
+
+@font-face {
+  font-family: painted;
+  src: url('fonts/painted/Painted.ttf');
+}
+
+.animation {
+  margin-top: 60px;
+  z-index: 2;
+}
+
+.name {
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.name img {
+  float: left;
+  width: 120px;
+  height: 150px;
+}
+
+.name h1 {
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+.nav {
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  positon: absolute;
+}
+
+.nav li {
+  font-size: 30px;
+  display: inline;
+  padding: 30px;
+  list-style-type: none;
+}
+
+#about:hover { 
+  color:red;
+}
+
+#portfolio:hover { 
+  color:orange;
+}
+
+#home:hover { 
+  color:green;
+}
+
+#skills:hover { 
+  color:blue;
+}
+
+#contact:hover {
+  color:purple;
+}
+
+#stripe1 { 
+  border-bottom: 20px solid red; 
+  border-left: 20px solid transparent; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#stripe2 { 
+  border-bottom: 40px solid orange; 
+  border-left: 40px solid transparent; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#stripe3 { 
+  border-bottom: 60px solid yellow; 
+  border-left: 60px solid transparent; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#stripe4 { 
+  border-bottom: 80px solid green; 
+  border-left: 80px solid transparent; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#stripe5 { 
+  border-bottom: 100px solid blue; 
+  border-left: 100px solid transparent; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#stripe6 { 
+  border-bottom: 120px solid purple; 
+  border-left: 120px solid transparent; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
