@@ -1,11 +1,28 @@
+$( "#about" ).click(function() {
+  $("#container").load( "about.html" )
+});
+
+$( "#portfolio" ).click(function() {
+  $("#container").load( "portfolio.html" )
+});
+
+$( "#home" ).click(function() {
+  $("#container").load( "index.html" )
+});
+
+$( "#skills" ).click(function() {
+  $("#container").load( "skills.html ul" )
+});
+
+$( "#contact" ).click(function() {
+  $("#container").load( "contact.html" )
+});
+
 window.onload=function() {
 
-  window.interval = setInterval(function() {
-    $('#animation').attr('src',$('#animation').attr('src'))
-  },1)
-
   setTimeout(function() {
-    clearInterval(interval)  
-  }, 2000)
+    $('.animation').hide();
+    $('.replacement').show();
+  }, 1000);
 
 };

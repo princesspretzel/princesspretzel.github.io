@@ -1,4 +1,4 @@
-h1, li {
+h1, li, a {
   font-family: painted;
   color: #BC7642;
 }
@@ -11,6 +11,13 @@ h1, li {
 .animation {
   margin-top: 60px;
   z-index: 2;
+}
+
+.replacement {
+  margin-top: 60px;
+  z-index: 2;
+  width: 306px;
+  height: 175px;
 }
 
 .name {
