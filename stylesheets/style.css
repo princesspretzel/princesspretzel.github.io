@@ -1,10 +1,17 @@
 h1 {
   font-family: painted;
   color: #BC7642;
+  letter-spacing: 2px;
+  font-size: 60px;
 }
 
 a {
   color: white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .main_container {
@@ -25,11 +32,11 @@ a {
   margin-top: 60px;
   z-index: 2;
   width: 306px;
-  height: 179px;
+  height: 304px;
 }
 
 .name {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: 100px;
 }
 
@@ -46,19 +53,21 @@ a {
 }
 
 .nav {
-  width: 800px;
-  height: 100px;
-  margin: 0 auto;
-  margin-top: 150px;
+  float: left;
+  margin-left: 250px;
+  margin-top: -230px;
 }
 
 .nav li {
   font-family: painted;
   color: #BC7642;
   font-size: 30px;
-  display: inline;
-  padding: 30px;
+  padding: 10px;
   list-style-type: none;
+}
+
+h1:hover {
+  color:yellow;
 }
 
 #about:hover { 
@@ -89,13 +98,19 @@ a {
   margin: 0 auto;
   border-radius: 10px;
   width: 40%;
+  height: 500px;
   padding: 10px;
-  margin-top: -250px;
-  margin-right: 20%;
+  margin-top: -350px;
+  margin-right: 12%;
+  z-index: 4;
 }
 
 .poofle li {
   list-style-type: none;
+}
+
+.photo {
+  background-color: yellow;
 }
 
 .about {
@@ -119,48 +134,48 @@ a {
 }
 
 #stripe1 { 
-  border-top: 20px solid red; 
-  border-left: 20px solid transparent; 
+  border-top: 30px solid red; 
+  border-left: 30px solid transparent; 
   position: absolute;
   top: 0;
   right: 0;
 }
 
 #stripe2 { 
-  border-top: 40px solid orange; 
-  border-left: 40px solid transparent; 
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-#stripe3 { 
-  border-top: 60px solid yellow; 
+  border-top: 60px solid orange; 
   border-left: 60px solid transparent; 
   position: absolute;
   top: 0;
   right: 0;
 }
 
+#stripe3 { 
+  border-top: 90px solid yellow; 
+  border-left: 90px solid transparent; 
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 #stripe4 { 
-  border-top: 80px solid green; 
-  border-left: 80px solid transparent; 
+  border-top: 120px solid green; 
+  border-left: 120px solid transparent; 
   position: absolute;
   top: 0;
   right: 0;
 }
 
 #stripe5 { 
-  border-top: 100px solid blue; 
-  border-left: 100px solid transparent; 
+  border-top: 150px solid blue; 
+  border-left: 150px solid transparent; 
   position: absolute;
   top: 0;
   right: 0;
 }
 
 #stripe6 { 
-  border-top: 120px solid purple; 
-  border-left: 120px solid transparent; 
+  border-top: 180px solid purple; 
+  border-left: 180px solid transparent; 
   position: absolute;
   top: 0;
   right: 0;

@@ -5,6 +5,16 @@ window.onload=function() {
     $('.replacement').show();
   }, 1000);
 
+  $('#logo').on("click", function(){
+    $('.poofle').hide();  
+    $('.photo').show();
+  });
+
+  $('h1').on("click", function(){
+    $('.poofle').hide();  
+    $('.photo').show();
+  });
+
   $('#about').on("click", function(){
     $('.poofle').hide();  
     $('.about').show();
