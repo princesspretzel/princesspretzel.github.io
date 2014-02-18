@@ -1,6 +1,10 @@
-h1, li, a {
+h1 {
   font-family: painted;
   color: #BC7642;
+}
+
+a {
+  color: white;
 }
 
 .main_container {
@@ -46,10 +50,12 @@ h1, li, a {
   height: 100px;
   margin: 0 auto;
   margin-top: 50px;
-  positon: absolute;
+  position: absolute;
 }
 
 .nav li {
+  font-family: painted;
+  color: #BC7642;
   font-size: 30px;
   display: inline;
   padding: 30px;
@@ -76,29 +82,34 @@ h1, li, a {
   color:purple;
 }
 
+.poofle {
+  float: right;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 40%;
+  margin-right: 20%;
+}
+
 .about {
   background-color: red;
-  color: white;
 }
 
 .portfolio {
   background-color: orange;
-  color: white;
 }
 
 .home {
   background-color: green;
-  color: white;
 }
 
 .skills {
   background-color: blue;
-  color: white;
 }
 
 .contact {
   background-color: purple;
-  color: white;
 }
 
 #stripe1 { 
