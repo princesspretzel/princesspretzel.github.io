@@ -3,6 +3,10 @@ h1, li, a {
   color: #BC7642;
 }
 
+.main_container {
+  height: 100%;
+}
+
 @font-face {
   font-family: painted;
   src: url('fonts/painted/Painted.ttf');
@@ -17,7 +21,7 @@ h1, li, a {
   margin-top: 60px;
   z-index: 2;
   width: 306px;
-  height: 175px;
+  height: 179px;
 }
 
 .name {
@@ -72,50 +76,75 @@ h1, li, a {
   color:purple;
 }
 
+.about {
+  background-color: red;
+  color: white;
+}
+
+.portfolio {
+  background-color: orange;
+  color: white;
+}
+
+.home {
+  background-color: green;
+  color: white;
+}
+
+.skills {
+  background-color: blue;
+  color: white;
+}
+
+.contact {
+  background-color: purple;
+  color: white;
+}
+
 #stripe1 { 
-  border-bottom: 20px solid red; 
+  border-top: 20px solid red; 
   border-left: 20px solid transparent; 
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }
 
 #stripe2 { 
-  border-bottom: 40px solid orange; 
+  border-top: 40px solid orange; 
   border-left: 40px solid transparent; 
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }
 
 #stripe3 { 
-  border-bottom: 60px solid yellow; 
+  border-top: 60px solid yellow; 
   border-left: 60px solid transparent; 
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }
 
 #stripe4 { 
-  border-bottom: 80px solid green; 
+  border-top: 80px solid green; 
   border-left: 80px solid transparent; 
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }
 
 #stripe5 { 
-  border-bottom: 100px solid blue; 
+  border-top: 100px solid blue; 
   border-left: 100px solid transparent; 
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }
 
 #stripe6 { 
-  border-bottom: 120px solid purple; 
+  border-top: 120px solid purple; 
   border-left: 120px solid transparent; 
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }

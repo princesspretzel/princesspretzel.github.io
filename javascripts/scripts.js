@@ -1,23 +1,3 @@
-$( "#about" ).click(function() {
-  $("#container").load( "about.html" )
-});
-
-$( "#portfolio" ).click(function() {
-  $("#container").load( "portfolio.html" )
-});
-
-$( "#home" ).click(function() {
-  $("#container").load( "index.html" )
-});
-
-$( "#skills" ).click(function() {
-  $("#container").load( "skills.html ul" )
-});
-
-$( "#contact" ).click(function() {
-  $("#container").load( "contact.html" )
-});
-
 window.onload=function() {
 
   setTimeout(function() {
@@ -26,3 +6,23 @@ window.onload=function() {
   }, 1000);
 
 };
+
+$('#about').on("click", function(){
+  $('.about').show();
+});
+
+$('#portfolio').on("click", function(){
+  $('.portfolio').show();
+});
+
+$('#home').on("click", function(){
+  $('.home').show();
+});
+
+$('#skills').on("click", function(){
+  $('.skills').show();
+});
+
+$('#contact').on("click", function(){
+  $('.contact').show();
+});
