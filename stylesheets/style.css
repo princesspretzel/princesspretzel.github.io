@@ -94,7 +94,6 @@ h1:hover {
   float: right;
   font-family: Love Ya Like A Sister, cursive;
   color: white;
-  text-align: center;
   margin: 0 auto;
   border-radius: 10px;
   width: 40%;
@@ -105,8 +104,28 @@ h1:hover {
   z-index: 4;
 }
 
+.poofle h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
 .poofle li {
   list-style-type: none;
+  margin-left: 40px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.poofle p {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+#tinyplanet {
+  max-width: 80%;
+  margin-left: 50px;
+  border: white;
+  border-radius: 5px;
 }
 
 .photo {
