@@ -3,10 +3,12 @@ h1 {
   color: #BC7642;
   letter-spacing: 2px;
   font-size: 60px;
+  cursor: pointer;
 }
 
 a {
   color: white;
+  cursor: pointer;
 }
 
 img {
@@ -44,6 +46,7 @@ img {
   float: left;
   width: 120px;
   height: 150px;
+  cursor: pointer;
 }
 
 .name h1 {
@@ -63,6 +66,7 @@ img {
   color: #BC7642;
   font-size: 30px;
   padding: 10px;
+  cursor: pointer;
   list-style-type: none;
 }
 
