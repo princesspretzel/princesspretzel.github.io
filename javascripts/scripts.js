@@ -25,6 +25,16 @@ window.onload=function() {
     $('.portfolio').show();
   });
 
+  // $(".projects").on("click", function(){ 
+  //   $('.projects').hide();
+  //   $('.group').show();
+  // }); 
+
+  // $(".projects").on("click", function(){ 
+  //   $('.projects').hide();
+  //   $('.game1').show();
+  // }); 
+
   $('#home').on("click", function(){
     $('.poofle').hide();
     $('.home').show();
