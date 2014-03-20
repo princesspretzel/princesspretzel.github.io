@@ -1,6 +1,6 @@
 h1 {
   font-family: painted;
-  color: #BC7642;
+  color: black;
   letter-spacing: 2px;
   font-size: 40px;
   cursor: pointer;
@@ -62,8 +62,8 @@ img {
 }
 
 .nav li {
-  font-family: painted;
-  color: #BC7642;
+  font-family: 'Lusitana', serif;
+  color: black;
   font-size: 30px;
   padding: 10px;
   cursor: pointer;
@@ -100,7 +100,7 @@ h1:hover {
 
 .poofle {
   float: right;
-  font-family: Love Ya Like A Sister, cursive;
+  font-family: 'Lusitana', serif;
   color: white;
   margin: 0 auto;
   border-radius: 10px;
