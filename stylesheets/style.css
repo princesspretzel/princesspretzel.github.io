@@ -86,6 +86,10 @@ h1:hover {
   color:green;
 }
 
+#here {
+  text-align: center;
+}
+
 #skills:hover { 
   color:blue;
 }
@@ -102,6 +106,7 @@ h1:hover {
   border-radius: 10px;
   width: 40%;
   height: 500px;
+  text-align: justify;
   padding: 10px;
   margin-top: -350px;
   margin-right: 12%;
@@ -115,13 +120,16 @@ h1:hover {
 
 .poofle li {
   list-style-type: none;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
   font-size: 20px;
-  padding: 5px;
 }
 
 .poofle p {
-  margin-left: 40px;
+  margin-left: 30px;
+  padding-right: 30px;
   font-size: 20px;
 }
 
