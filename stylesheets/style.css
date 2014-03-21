@@ -2,7 +2,7 @@ h1 {
   font-family: painted;
   color: black;
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 3em;
   cursor: pointer;
 }
 
@@ -26,12 +26,12 @@ img {
 }
 
 .animation {
-  margin-top: 60px;
+  margin-top: 5%;
   z-index: 2;
 }
 
 .replacement {
-  margin-top: 60px;
+  margin-top: 5%;
   z-index: 2;
   width: 306px;
   height: 304px;
@@ -56,16 +56,17 @@ img {
 }
 
 .nav {
+  position: relative;
   float: left;
-  margin-left: 250px;
+  margin-left: 20%;
   margin-top: -230px;
 }
 
 .nav li {
   font-family: 'Lusitana', serif;
   color: black;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 2em;
+  padding: 3%;
   cursor: pointer;
   list-style-type: none;
 }
@@ -133,11 +134,17 @@ h1:hover {
   font-size: 20px;
 }
 
-#tinyplanet {
+.pic {
   max-width: 80%;
-  margin-left: 50px;
+  margin: 0 auto;
   border: white;
   border-radius: 5px;
+}
+
+.projects {
+  max-width: 80%;
+  max-height: 80%;
+  overflow: none;
 }
 
 .photo {
