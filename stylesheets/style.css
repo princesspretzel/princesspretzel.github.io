@@ -1,220 +1,368 @@
-h1 {
-  font-family: painted;
-  color: black;
-  letter-spacing: 2px;
-  font-size: 3em;
-  cursor: pointer;
+  h1 {
+    font-family: painted;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 3em;
+    cursor: pointer;
+  }
+
+  a {
+    color: white;
+    cursor: pointer;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  @font-face {
+    font-family: painted;
+    src: url('fonts/painted/Painted.ttf');
+  }
+
+  .animation {
+    margin-top: 5%;
+    z-index: 2;
+  }
+
+  .replacement {
+    margin-top: 5%;
+    z-index: 2;
+    width: 306px;
+    height: 304px;
+  }
+
+  .name {
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+
+  .name img {
+    float: left;
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
+  }
+
+  .name h1 {
+    position: relative;
+    top: 100px;
+    left: 0px;
+  }
+
+  .nav {
+    position: relative;
+    float: left;
+    margin-left: 20%;
+    margin-top: -230px;
+  }
+
+  .nav li {
+    font-family: 'Lusitana', serif;
+    color: black;
+    font-size: 2em;
+    padding: 3%;
+    cursor: pointer;
+    list-style-type: none;
+  }
+
+  h1:hover {
+    color:yellow;
+  }
+
+  #about:hover { 
+    color:red;
+  }
+
+  #portfolio:hover { 
+    color:orange;
+  }
+
+  #home:hover { 
+    color:green;
+  }
+
+  #here {
+    text-align: center;
+  }
+
+  #skills:hover { 
+    color:blue;
+  }
+
+  #contact:hover {
+    color:purple;
+  }
+
+  .poofle {
+    float: right;
+    font-family: 'Lusitana', serif;
+    color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 40%;
+    height: 500px;
+    text-align: justify;
+    padding: 10px;
+    margin-top: -350px;
+    margin-right: 12%;
+    z-index: 4;
+  }
+
+  .poofle h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .poofle li {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .poofle p {
+    margin-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+
+  .pic {
+    max-width: 80%;
+    margin: 0 auto;
+    border: white;
+    border-radius: 5px;
+  }
+
+  .projects {
+    max-width: 80%;
+    max-height: 80%;
+    overflow: none;
+  }
+
+  .photo {
+    background-color: yellow;
+  }
+
+  .about {
+    display:none;
+    background-color: red;
+  }
+
+  .portfolio {
+    display:none;
+    background-color: orange;
+  }
+
+  .home {
+    display:none;
+    background-color: green;
+  }
+
+  .skills {
+    display:none;
+    background-color: blue;
+  }
+
+  .contact {
+    display:none;
+    background-color: purple;
+  }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  #stripe1 { 
+    border-top: 15px solid red; 
+    border-left: 15px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe2 { 
+    border-top: 30px solid orange; 
+    border-left: 30px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe3 { 
+    border-top: 45px solid yellow; 
+    border-left: 45px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe4 { 
+    border-top: 60px solid green; 
+    border-left: 60px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe5 { 
+    border-top: 75px solid blue; 
+    border-left: 75px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe6 { 
+    border-top: 90px solid purple; 
+    border-left: 90px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
 }
 
-a {
-  color: white;
-  cursor: pointer;
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
 }
 
-.main_container {
-  height: 100%;
+@media (max-width: 600px) {
+  .poofle {
+    float: none;
+  }
+
+  .nav {
+    display: block;
+    float: none;
+  }
+
+  .nav ul {
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .nav li {
+    font-family: 'Lusitana', serif;
+    color: black;
+    font-size: 1em;
+    padding: 3%;
+    cursor: pointer;
+    list-style-type: none;
+    display: inline-block;
+  }
 }
 
-@font-face {
-  font-family: painted;
-  src: url('fonts/painted/Painted.ttf');
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
 }
 
-.animation {
-  margin-top: 5%;
-  z-index: 2;
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
 }
 
-.replacement {
-  margin-top: 5%;
-  z-index: 2;
-  width: 306px;
-  height: 304px;
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
 }
 
-.name {
-  margin-top: 80px;
-  margin-left: 100px;
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+
+  #stripe1 { 
+    border-top: 30px solid red; 
+    border-left: 30px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe2 { 
+    border-top: 60px solid orange; 
+    border-left: 60px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe3 { 
+    border-top: 90px solid yellow; 
+    border-left: 90px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe4 { 
+    border-top: 120px solid green; 
+    border-left: 120px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe5 { 
+    border-top: 150px solid blue; 
+    border-left: 150px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #stripe6 { 
+    border-top: 180px solid purple; 
+    border-left: 180px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
 }
 
-.name img {
-  float: left;
-  width: 120px;
-  height: 150px;
-  cursor: pointer;
+@media (max-width: 1080px) {
+
+  body {
+    background: #0f0;
+  }
+
+  .poofle {
+      display: block;
+      font-family: 'Lusitana', serif;
+      color: white;
+      margin: 0 auto;
+      border-radius: 10px;
+      width: 40%;
+      height: 100%;
+      text-align: justify;
+      padding: 10px;
+      margin-top: -215px;
+      margin-right: 12%;
+      z-index: 4;
+    }
+
+
+
+} 
+
+
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
 }
 
-.name h1 {
-  position: relative;
-  top: 100px;
-  left: 0px;
-}
-
-.nav {
-  position: relative;
-  float: left;
-  margin-left: 20%;
-  margin-top: -230px;
-}
-
-.nav li {
-  font-family: 'Lusitana', serif;
-  color: black;
-  font-size: 2em;
-  padding: 3%;
-  cursor: pointer;
-  list-style-type: none;
-}
-
-h1:hover {
-  color:yellow;
-}
-
-#about:hover { 
-  color:red;
-}
-
-#portfolio:hover { 
-  color:orange;
-}
-
-#home:hover { 
-  color:green;
-}
-
-#here {
-  text-align: center;
-}
-
-#skills:hover { 
-  color:blue;
-}
-
-#contact:hover {
-  color:purple;
-}
-
-.poofle {
-  float: right;
-  font-family: 'Lusitana', serif;
-  color: white;
-  margin: 0 auto;
-  border-radius: 10px;
-  width: 40%;
-  height: 500px;
-  text-align: justify;
-  padding: 10px;
-  margin-top: -350px;
-  margin-right: 12%;
-  z-index: 4;
-}
-
-.poofle h3 {
-  font-size: 30px;
-  text-align: center;
-}
-
-.poofle li {
-  list-style-type: none;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-right: 30px;
-  padding-top: 10px;
-  font-size: 20px;
-}
-
-.poofle p {
-  margin-left: 30px;
-  padding-right: 30px;
-  font-size: 20px;
-}
-
-.pic {
-  max-width: 80%;
-  margin: 0 auto;
-  border: white;
-  border-radius: 5px;
-}
-
-.projects {
-  max-width: 80%;
-  max-height: 80%;
-  overflow: none;
-}
-
-.photo {
-  background-color: yellow;
-}
-
-.about {
-  background-color: red;
-}
-
-.portfolio {
-  background-color: orange;
-}
-
-.home {
-  background-color: green;
-}
-
-.skills {
-  background-color: blue;
-}
-
-.contact {
-  background-color: purple;
-}
-
-#stripe1 { 
-  border-top: 30px solid red; 
-  border-left: 30px solid transparent; 
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-#stripe2 { 
-  border-top: 60px solid orange; 
-  border-left: 60px solid transparent; 
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-#stripe3 { 
-  border-top: 90px solid yellow; 
-  border-left: 90px solid transparent; 
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-#stripe4 { 
-  border-top: 120px solid green; 
-  border-left: 120px solid transparent; 
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-#stripe5 { 
-  border-top: 150px solid blue; 
-  border-left: 150px solid transparent; 
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-#stripe6 { 
-  border-top: 180px solid purple; 
-  border-left: 180px solid transparent; 
-  position: absolute;
-  top: 0;
-  right: 0;
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }

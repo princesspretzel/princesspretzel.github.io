@@ -3,7 +3,7 @@ window.onload=function() {
   setTimeout(function() {
     $('.animation').hide();
     $('.replacement').show();
-  }, 1000);
+  }, 2000);
 
   $('#logo').on("click", function(){
     $('.poofle').hide();  
@@ -25,18 +25,6 @@ window.onload=function() {
     $('.portfolio').show();
   });
  
-  $("#projects").owlCarousel({
-    items: 2,
-    itemsCustom : false,
-    itemsDesktop : [1199,4],
-    itemsDesktopSmall : [980,3],
-    itemsTablet: [768,2],
-    itemsTabletSmall: false,
-    itemsMobile : [479,1],
-    singleItem : false,
-    itemsScaleUp : false
-  });
-
   $('#home').on("click", function(){
     $('.poofle').hide();
     $('.home').show();
