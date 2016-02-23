@@ -7,11 +7,12 @@
   }
 
   a {
-    color: white;
+    color: black;
     cursor: pointer;
   }
 
   img {
+    margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
   }
@@ -98,7 +99,7 @@
   .poofle {
     float: right;
     font-family: 'Lusitana', serif;
-    color: white;
+    color: black;
     margin: 0 auto;
     border-radius: 10px;
     width: 40%;
@@ -143,33 +144,38 @@
     overflow: none;
   }
 
+  .photo, .about, .portfolio, .home, .skills, .contact {
+    border-style: solid;
+    border-width: 30px;
+  }
+
   .photo {
-    background-color: yellow;
+    border-color: yellow;
   }
 
   .about {
     display:none;
-    background-color: red;
+    border-color: red;
   }
 
   .portfolio {
     display:none;
-    background-color: orange;
+    border-color: orange;
   }
 
   .home {
     display:none;
-    background-color: green;
+    border-color: green;
   }
 
   .skills {
     display:none;
-    background-color: blue;
+    border-color: blue;
   }
 
   .contact {
     display:none;
-    background-color: purple;
+    border-color: purple;
   }
 
 /* Smartphones (portrait and landscape) ----------- */
