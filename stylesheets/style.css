@@ -1,4 +1,5 @@
 body {
-  background: url(../images/scropoin.png) no-repeat;
+  background: url(../images/scropoin.png) no-repeat,
+  url(../images/scropoinflip.png);
   background-size: cover;
 }
